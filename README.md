@@ -1,3 +1,5 @@
+![Texto alternativo](D:\Escritorio\Descargas\image.png)
+![Descripción de la imagen](./mi-imagen.png)
 # 1 Estructura y Organización de Datos
 __Repositorio__ de la materia de Estructura y Organización de Datos, Semestre 2026B
 
