@@ -1,3 +1,11 @@
+"""
+Escribir un programa que calcule
+la suma de los "n" numeros naturales.
+Por ejemplo si n = 100, el programa
+calculara la suma del 1 al 100.
+42 usando un ciclo while
+"""
+
 # creando una lista de estudiante 
 student_list_01 = ['Jorda','pipen','curry','lebron'] 
 student_list_02 = ['jorge','luis','kevin','fran'] 
