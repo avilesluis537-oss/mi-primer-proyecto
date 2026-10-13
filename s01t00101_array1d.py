@@ -7,7 +7,7 @@ import array as arr
 #f: numero decimal 
 #d: numero decimal doble 
 #u: caracteres unicode
-my_array = arr.array('i',[10,22,300,22,44,55,88,999,453,22,45421])
+my_array = arr.array('i',[10,22,300,22,44,55,88,200,453,22,45421])
 #inteacion automatica 
 # for num in my_array: 
 #     print (num)
@@ -23,5 +23,10 @@ my_array = arr.array('i',[10,22,300,22,44,55,88,999,453,22,45421])
 # for i in range(len(my_array)):
     # if my_array[i]%2 == 0:
         # print(f"Elemento:¨{i+1}:{my_array[i]}")
-print(f"Localizando 300:{my_array.index(0)}")
+my_array[7]= 200     
+num_to_search = 200
+try:   
+ print(f"Localizando{num_to_search}: {my_array.index(num_to_search)}")
+except:
+ print(" numero no encontrado ¡¡¡¡")
         
