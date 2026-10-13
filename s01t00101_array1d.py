@@ -18,9 +18,10 @@ my_array = arr.array('i',[10,22,300,22,44,55,88,999,453,22,45421])
 
 #TAMAÑO DE UN ARREGLO 
 #length
-print(len(my_array))
+# print(len(my_array))
 #interacion por indices
-for i in range(len(my_array)):
-    if my_array[i]%2 == 0:
-        print(f"Elemento:¨{i+1}:{my_array[i]}")
+# for i in range(len(my_array)):
+    # if my_array[i]%2 == 0:
+        # print(f"Elemento:¨{i+1}:{my_array[i]}")
+print(f"Localizando 300:{my_array.index(0)}")
         
