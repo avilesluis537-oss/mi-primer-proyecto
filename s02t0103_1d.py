@@ -1,7 +1,5 @@
 from array import array as arr
 
-from array import array as arr
-
 
 from s02t0101_1d import print_array
 
