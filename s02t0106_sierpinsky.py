@@ -3,7 +3,7 @@ from array import array as arr
 # parametros de mi circuito 
 #fila
 rows = 8
-colums = 2* rows - 1
+colums = 2* rows - 1 # CALCULO DE COLUMNAS 
 
 # crando el grid  2D 
 matrix = []
@@ -16,5 +16,10 @@ for _ in range(rows):
 print (f"cantidad de filas: {len (matrix)}") 
 print(f"cantidad de columnas : {len(matrix[0])}")  
 
-for row in matrix:
-    print(list(row))
+#for row in matrix:
+    #print(list(row))
+
+# Calculando el centro de la primera fila 
+center = row //2 # se hace dvision entera 
+
+#estableciendo el centro en 1
