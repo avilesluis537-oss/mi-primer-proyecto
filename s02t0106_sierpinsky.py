@@ -30,7 +30,25 @@ center = colums //2 # se hace dvision entera
 #estableciendo el centro en 1
 matrix[0][center]=1
 
-print_matrix(matrix)
+#print_matrix(matrix)
 
 #se calcula el resto de la matrix
 #siguiendo la logica del siperpinsky
+for row in range(1,rows): 
+ for col in range(0,coumns):
+   lef_upper_cell = 0
+   right_upper_cell = 0
+
+
+   if col > 0:
+      lef_upper_cell = matrix[row-1][col-1]
+
+      if col < colums -1:
+         right_upper_cell = matrix[row-1][col+1]
+
+         if left_upper_cell ¡ = right_upper_cell:
+            matrix[row] [col] = 1
+        else:
+         matrix[row][col] = 0
+             
+
