@@ -2,8 +2,13 @@ from array import array as arr
 
 # parametros de mi circuito 
 #fila
-rows = 8
+rows = 3
 colums = 2* rows - 1 # CALCULO DE COLUMNAS 
+
+# funcion parra imprimir matrix
+def print_matrix (input_matrix):
+    for row in input_matrix:
+        print(list(row))
 
 # crando el grid  2D 
 matrix = []
@@ -20,6 +25,12 @@ print(f"cantidad de columnas : {len(matrix[0])}")
     #print(list(row))
 
 # Calculando el centro de la primera fila 
-center = row //2 # se hace dvision entera 
+center = colums //2 # se hace dvision entera 
 
 #estableciendo el centro en 1
+matrix[0][center]=1
+
+print_matrix(matrix)
+
+#se calcula el resto de la matrix
+#siguiendo la logica del siperpinsky
